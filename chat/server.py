@@ -3,7 +3,7 @@ import threading
 
 HEADER = 64
 PORT = 3000
-SERVER = socket.gethostbyname(socket.gethostname()) # obtenir l'ip local de l'ordinateur
+SERVER = input("Enter the IP address you will use : ") # obtenir l'ip local de l'ordinateur
 ADDR = (SERVER, PORT)
 FORMAT = "utf-8"
 DISCONNECT_MESSAGE = "!DISCONNECT"
